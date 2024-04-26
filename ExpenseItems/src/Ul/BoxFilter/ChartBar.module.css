@@ -1,0 +1,23 @@
+.BoxChartBar{
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.BoxChartBar>div{
+    width: 12px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: rgb(147, 147, 201);
+    border: 1px solid rgb(129, 128, 128);
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+.BoxChartBar>div>div{
+    background-color: purple;
+    width: 100%;
+
+}

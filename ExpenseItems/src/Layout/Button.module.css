@@ -1,0 +1,17 @@
+.btn{
+   border: none;
+ 
+
+   outline: none;
+
+}
+
+.valid{
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+}
+.notvalid{
+    color: black;
+    background-color: white;
+}
